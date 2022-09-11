@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/b2528fcf94.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sourse/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./images/curvy_burger.png">
+
+    <title>Psychology</title>
+</head>
+<body>
+    
+    <div class="body">
+        
+        
+        <!-- 1st one -->
+        <header>
+            <ul>
+                <a href="#obo_mne"><li><h3>Обо мне</h3></li></a>
+                <a href="#rabota"><li class="center"><h3>С чем я работаю?</h3></li></a>
+                <a href="#zapis"><li><h3>Записаться</h3></li></a>
+            </ul>
+    
+            <ul class="block">
+                <a href="#obo_mne"><li><h3>Обо мне</h3></li></a>
+                <a href="#rabota"><li class="center"><h3>Работа?</h3></li></a>
+                <a href="#zapis"><li><h3>Запись</h3></li></a>
+            </ul>
+            <!-- <div class="block"> -->
+                <!-- <img src="./images/curvy_burger.png" alt=""> -->
+                <!-- <img src="./images/burger.png" alt=""> -->
+            <!-- </div> -->
+    
+            <hr class="header_line">
+        </header>
+        <div class="first_one">
+            
+            <div class="left">
+                <p class="big_3d">3D</p>
+                <h1>моделирование</h1>
+                <h3 class="h2_margin_first">архитектурно-интерьерных проектов</h3>
+                <a href="#zapis"   id="obo_mne"><h3 class="button">Обратиться</h3></a>
+            </div>
+
+        </div>
+
+        <div class="second_one">
+            <div class="left">
+                <h2>О себе</h2>
+                <h3 class="h2_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            </div>
+            <h3 class="bold">Умею работать в программах</h3>
+            <div class="second_images">
+                <img src="./sourse/programs/image 15.png" alt="">
+                <img src="./sourse/programs/image 15.png" alt="">
+                <img src="./sourse/programs/image 15.png" alt="">
+                <img src="./sourse/programs/image 15.png" alt="">
+            </div>
+
+        </div>
+    
+
+    <!-- IMAGE HOLDER -->
+        <div class="grid">
+            <h2>Мои работы</h2>
+
+        <div class="grid_one" id="rabota">
+            <img src="./sourse/portfolio/1.png" alt="">
+            <img src="./sourse/portfolio/2.jpg" alt="">
+            <img src="./sourse/portfolio/3.jpg" alt="">
+            <img src="./sourse/portfolio/4.jpg" alt="">
+            <img src="./sourse/portfolio/5.jpg" alt="">
+            <img src="./sourse/portfolio/6.jpg" alt="">
+            <img src="./sourse/portfolio/7.jpg" alt="">
+        </div>
+        </div>
+        
+<!-- 
+        <h1>Расценки</h1>
+        <div class="cards">
+            <div class="card card_one">
+                <h2>2000p</h2>
+                <hr class="line_card">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3> <br>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
+            </div>
+
+            <div class="card card_two">
+                <h2>1500p</h2>
+                <hr class="line_card">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
+            </div>
+
+            <div class="card card_three">
+                <h2>3000p</h2>
+                <hr class="line_card">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h3>
+            </div>
+        </div>
+    </div>
+        <div class="contacts_container" id="zapis">
+            <div class="contacts">
+                <div class="contacts_left">
+                    <div class="box_input">
+                        <input class="contacts_input" type="text" placeholder="Имя">
+                        <input class="contacts_input" type="text" placeholder="Телефон">
+                        <input class="contacts_input" type="text" placeholder="Почта">
+                    </div>
+                    <a href=""><h3 class="button last_button">Записаться</h3></a>
+                </div>
+                    <img src="./images/maze.jpg" alt="">
+            </div>
+            <div class="icons_container">
+                <div class="icons">
+                    <a href="#"class="icon"><i class="fa-brands fa-vk"></i></a>
+                    <a href="#"class="icon icon_center"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <h3>Made by <a href="#">Rishat</a></h3>
+            </div>
+        </div> -->
+</body>
+
+<!--  --------------  -->
+<script src="./app.js"></script>
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+    });
+</script>
+</html>
