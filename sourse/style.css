@@ -355,24 +355,9 @@ h3.button:hover {
 
 /* GRID */
 
-/* .image_text_aboba{
-    position: absolute;
-    background-color: white;
-    padding: 50px;
+.grid h2 {
+    margin-bottom: 30px;
 }
-
-.image_aboba{
-    width: 270px;
-}
-
-.top{
-    display: flex;
-} */
-
-/*  */
-
-
-
 .grid_one {
     /* margin: 60px 0; */
     width: 100%;
@@ -398,6 +383,7 @@ h3.button:hover {
     height: 100%;
     object-fit: cover;
     image-rendering:optimizeQuality;
+    border-radius: 10px;
 }
 
 
@@ -410,6 +396,7 @@ h3.button:hover {
         left: 0;
         width: 100vw;
         height: 100vh;
+        box-sizing: border-box;
         background-color: rgba(0, 0, 0, .6);
    }
    
@@ -420,11 +407,16 @@ h3.button:hover {
    }
    
    #lightbox img{
-     height: 90%;
+     width: 90%;
    }
 
 
+   @media only screen and (max-width: 800px) {
+    .grid_one{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+}
 
 
 /* CARDS */
