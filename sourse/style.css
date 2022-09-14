@@ -239,6 +239,8 @@ h3.button:hover {
 
     .first_one {
         display: block;
+        margin-top: 100px;
+        
     }
 
     .first_one img {
@@ -272,7 +274,7 @@ h3.button:hover {
 /* SECOND */
 
 .second_one {
-    padding: 90px 10%;
+    /* padding: 90px 0; */
     background-color: #fff;
     align-items: center;
 }
@@ -280,6 +282,7 @@ h3.button:hover {
 .container_photo {
     display: flex;
     align-items: center;
+    padding: 90px 10%;
 }
 
 .container_photo .photo {
@@ -295,10 +298,11 @@ h3.button:hover {
 
 .container_deeploam {
     background-color: #CBE0E0;
-    border-radius: 30px;
-    padding: 60px;
+    /* border-radius: 30px; */
+    padding: 60px 10%;
+    /* padding: 60px; */
     box-sizing: border-box;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .deeploam_div {
@@ -317,7 +321,8 @@ h3.button:hover {
     font-weight: 900;
     color: #000;
     opacity: 100%;
-    font-size: 30px;
+    font-size: 25px;
+    /* font-size: 30px; */
     font-family: 'Inter', sans-serif;
 
 }
@@ -379,7 +384,7 @@ h3.button:hover {
     }
 
     .container_photo .photo {
-        width: 20%;
+        width: 25%;
     }
 
 }
@@ -390,7 +395,7 @@ h3.button:hover {
     }
 
     .container_deeploam {
-        padding: 30px;
+        /* padding: 30px; */
     }
 
     .deeploam_div{
@@ -398,6 +403,15 @@ h3.button:hover {
     }
 
 }
+
+
+@media only screen and (max-width: 530px) {
+    .container_photo .photo {
+        width: 35%;
+    }
+
+}
+
 
 /* GRID */
 
