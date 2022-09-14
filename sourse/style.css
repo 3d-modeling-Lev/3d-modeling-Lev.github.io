@@ -494,7 +494,7 @@ h3.button:hover {
 /* CHARACTERISTICS */
 
 .container_characteristic {
-    background-color: #879192;
+    background-color: #CBE0E0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
