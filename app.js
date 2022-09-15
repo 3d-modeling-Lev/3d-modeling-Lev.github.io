@@ -11,6 +11,14 @@ class Lightbox{
      this.lightboxImg = document.createElement('img');
      this.container.appendChild(this.lightboxImg);
   
+     this.h2text = document.createElement('h2');
+     this.h2text.innerHTML = 'Ebobaniy';
+     this.container.appendChild(this.h2text);
+
+    //  this.h3text = document.createElement('h3');
+    //  this.h3text.innerHTML = 'kozel';
+    //  this.container.appendChild(this.h3text);
+
      this.addListeners();
     }
   
@@ -20,7 +28,7 @@ class Lightbox{
       img.addEventListener('click', ()=> this.galleryImgClicked(img))
      })
   
-     this.container.addEventListener('click', ()=>{
+    this.container.addEventListener('click', ()=>{
       this.hideLightbox()
      })
   
