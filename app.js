@@ -11,13 +11,18 @@ class Lightbox{
      this.lightboxImg = document.createElement('img');
      this.container.appendChild(this.lightboxImg);
   
-     this.h2text = document.createElement('h2');
-     this.h2text.innerHTML = 'Ebobaniy';
-     this.container.appendChild(this.h2text);
+    //  this.h2text = document.createElement('h2');
+    //  this.h2text.innerHTML = '';
+    //  this.container.appendChild(this.h2text);
 
-    //  this.h3text = document.createElement('h3');
-    //  this.h3text.innerHTML = 'kozel';
-    //  this.container.appendChild(this.h3text);
+     this.h3text = document.createElement('h3');
+     this.h3text.innerHTML = 'X';
+     this.container.appendChild(this.h3text);
+
+    //  this.buttonb = document.createElement('button');
+    //  this.buttonb.innerHTML = "Скачать";
+    //  this.container.appendChild(this.buttonb);
+
 
      this.addListeners();
     }
