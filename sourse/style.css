@@ -544,18 +544,20 @@ h3 a.white:hover {
     image-rendering:optimizeQuality;
     /* border-radius: 10px; */
     border-radius: 10px 10px 0 0;
-
     transition: .2s;
+
+    outline: 10px solid #A6BABB;
+    outline-offset:-10px
 
     /* box-shadow: 5px 5px white; */
     /* box-shadow: 0 40px #A6BABB; */
 }
 
-.grid_one img:hover {
+/* .grid_one img:hover { */
     /* opacity: 80%; */
     /* box-shadow: none; */
-    transition: .2s;
-}
+    /* transition: .2s; */
+/* } */
 
 .button.works {
     margin-top: 50px;
@@ -607,10 +609,26 @@ video {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media only screen and (max-width: 890px) {
+    .button.works {
+        margin-top: 100px;
+    }
+}
+
 
     @media only screen and (max-width: 450px) {
+        .grid_one {
+            grid-row-gap: 90px;
+            /* margin-bottom: 60px; */
+        }
         .grid {
             padding: 90px 5%;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        iframe {
+            height: 300px;
         }
     }
 
