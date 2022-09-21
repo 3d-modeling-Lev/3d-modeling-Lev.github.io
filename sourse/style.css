@@ -817,7 +817,7 @@ iframe {
 .container_mail {
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    margin: 15px 0 0;
 }
 
 .bold_white {
@@ -860,6 +860,12 @@ i.fa-brands {
 
 i.fa-brands:hover {
     color: #50A2A7;
+}
+
+.icons_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .icons_container h3 {
