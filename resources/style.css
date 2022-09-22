@@ -366,7 +366,7 @@ h3.button:hover {
         /* box-sizing: border-box; */
         /* align-items: center; */
         /* padding: 300px 10% 90px; */
-        background-image: url(./background2.png);
+        background-image: url("../resources/images/background2.png");
         /* background-image: url(./background3.png); */
         /* min-height: 100vh; */
         background-position: center;
