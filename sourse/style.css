@@ -85,7 +85,7 @@ header.sticky ul{
 }
 
 
-li {
+header li {
     /* padding-right: 30px; */
     transition: .3s;
     /* overflow-wrap: break-word; */
@@ -101,8 +101,8 @@ header.sticky li {
     margin: 0 30px;
 }
 
-li:hover{
-    color: white;
+header li:hover{
+    color: #96BDDC;
     opacity: 100%;
     /* color: #FF9468; */
     cursor: pointer;
