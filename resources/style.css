@@ -43,7 +43,7 @@ header {
     top: 0;
     box-sizing: border-box;
     padding: 10px 10%;
-    background-color: #ffffff;
+    background-color: #96BDDC;
     /* margin: 0 10%; */
     position: fixed;
     width: 100%;
@@ -89,8 +89,8 @@ header li h3{
     /* padding-right: 30px; */
     transition: .3s;
     /* overflow-wrap: break-word; */
-    color: #638283;
-    opacity: 90%;
+    color: #000000;
+    opacity: 50%;
     /* color: #fff; */
 }
 
@@ -459,6 +459,11 @@ h3.button:hover {
     width: 100%;
 }
 
+h3.normal {
+    font-weight: 500;
+    margin-top: 15px;
+}
+
 .second_one h3.bold {
     /* margin-top: 60px; */
     font-weight: 900;
@@ -589,7 +594,7 @@ h3.button:hover {
     margin-top: -3px;
     width: 100%;
     background-color: #A6BABB;
-    padding: 5px 30px;
+    padding: 5px 15px;
     box-sizing: border-box;
     text-decoration: underline;
     opacity: 100%;
@@ -643,7 +648,7 @@ h3 a.white:hover {
 .grid_one img {
     width: 100%;
     /* height: 80%; */
-    height: 85%;
+    /* height: 85%; */
     object-fit: cover;
     image-rendering:optimizeQuality;
     border-radius: 10px 10px 0 0;
@@ -655,6 +660,8 @@ h3 a.white:hover {
 .button.works {
     margin-top: 30px;
     color: rgb(0, 0, 0);
+
+    padding: 30px 60px;
 }
 
 /* .knopka_rabota {
@@ -856,7 +863,7 @@ iframe {
 /* CONTACTS */
 .contacts_container{
     background-color: black;
-    padding: 90px 10% 30px;
+    padding: 90px 10% 60px;
     /* padding: 90px 10%; */
 }
 
