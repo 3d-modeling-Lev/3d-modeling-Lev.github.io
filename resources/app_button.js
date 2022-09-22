@@ -5,13 +5,13 @@ button = document.getElementById("button_works");
 knopka = document.getElementById("knopka_works");
 knopkatwo = document.getElementById("knopka_works_two");
 
-let appear = function() {
+let Appear = function() {
     closedPhoto.forEach(buba => {
         buba.style.display = "block";
     })
 }
 
-button.onclick = appear;
+button.onclick = Appear;
 knopka.onclick = function() {
     document.getElementById('closed_text').style.display = "block";
     document.getElementById('closed_dots').style.display = "none";
