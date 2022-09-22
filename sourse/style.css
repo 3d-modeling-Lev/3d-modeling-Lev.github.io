@@ -372,6 +372,10 @@ h3.button:hover {
         background-position: center;
         /* background-size: cover; */
     }
+
+    p.big_3d {
+        font-size: 120px;
+    }
 }
 
 @media only screen and (max-width: 530px) {
@@ -633,7 +637,8 @@ h3 a.white:hover {
 
 .grid_one img {
     width: 100%;
-    height: 80%;
+    /* height: 80%; */
+    height: 85%;
     object-fit: cover;
     image-rendering:optimizeQuality;
     border-radius: 10px 10px 0 0;
@@ -643,7 +648,7 @@ h3 a.white:hover {
 }
 
 .button.works {
-    margin-top: 50px;
+    margin-top: 30px;
     color: rgb(0, 0, 0);
 }
 
