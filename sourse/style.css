@@ -114,6 +114,42 @@ li:hover{
     display: none;
 }
 
+#ucheba {
+    scroll-margin-top: 100px;
+}
+
+#obo_mne {
+    scroll-margin-top: 150px;
+}
+
+#rabota {
+    scroll-margin-top: 100px;
+}
+
+#zapis {
+    scroll-behavior: smooth;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    #obo_mne {
+        scroll-margin-top: 40vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #obo_mne {
+        scroll-margin-top: 45vw;
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    #obo_mne {
+        scroll-margin-top: 70vw;
+    }
+}
+
+
 @media only screen and (max-width: 680px) {
     header ul{
         display: none;
@@ -222,6 +258,11 @@ p.big_3d {
     height: 400px;
     border-radius: 10px;
 }
+
+.closed_text {
+    display: none;
+}
+
 
 h3.button {
     width: fit-content;
@@ -373,7 +414,8 @@ h3.button:hover {
 
 .container_photo {
     display: flex;
-    align-items: center;
+    align-items: start;
+    /* align-items: center; */
     padding: 90px 10%;
 }
 
@@ -445,6 +487,7 @@ h3.button:hover {
     opacity: 70%;
     font-weight: 500;
 } 
+
 
 
 
@@ -523,6 +566,9 @@ h3.button:hover {
         grid-gap: 10px;
     }
 }
+
+
+
 /* GRID */
 
 .grid h2 {
@@ -570,15 +616,8 @@ h3 a.white:hover {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 240px); */
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-template-rows: repeat(2, 1fr); */
     grid-auto-rows: 1fr;
-    grid-column-gap: 20px;
-    /* grid-row-gap: 40px; */
-    grid-row-gap: 60px;
-    /* border-radius: 20px; */
-    /* background-color: rgba(255, 138, 91, 0.4); */
+    grid-gap: 20px;
 }
 
 .grid {
@@ -593,8 +632,8 @@ h3 a.white:hover {
 }
 
 .grid_one img {
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    height: 80%;
     object-fit: cover;
     image-rendering:optimizeQuality;
     border-radius: 10px 10px 0 0;
@@ -605,21 +644,27 @@ h3 a.white:hover {
 
 .button.works {
     margin-top: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
-.knopka_rabota {
+/* .knopka_rabota {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-
-}
+} */
 
 .knopka.works {
-    color: white;
-    opacity: 70%;
+    color: rgb(0, 0, 0);
+    opacity: 50%;
     text-decoration: underline;
+    width: fit-content;
+
+    margin-top: 15px;
+}
+
+.knopka.works.two {
+    display: none;
 }
 
 .knopka.works:hover {
@@ -629,7 +674,11 @@ h3 a.white:hover {
 }
 
 .white.video{
-    margin: 30px 0;
+    margin: 0 0 30px;
+}
+
+.white.video.marg {
+    margin-top: 90px
 }
 
 video {
@@ -713,7 +762,7 @@ iframe {
 
     @media only screen and (max-width: 890px) {
         .button.works {
-            margin-top: 100px;
+            /* margin-top: 100px; */
         }
 
         .grid_one img {
@@ -725,11 +774,11 @@ iframe {
 
     @media only screen and (max-width: 450px) {
         .grid_one {
-            grid-row-gap: 90px;
+            /* grid-row-gap: 90px; */
             /* margin-bottom: 60px; */
         }
         .grid {
-            padding: 90px 5%;
+            /* padding: 90px 5%; */
         }
     }
 
@@ -770,17 +819,7 @@ iframe {
     color: #466089;
 }
 
-#ucheba {
-    scroll-margin-top: 100px;
-}
 
-#obo_mne {
-    scroll-margin-top: 150px;
-}
-
-#rabota {
-    scroll-margin-top: 100px;
-}
 
 
 
@@ -807,7 +846,8 @@ iframe {
 /* CONTACTS */
 .contacts_container{
     background-color: black;
-    padding: 90px 10%;
+    padding: 90px 10% 30px;
+    /* padding: 90px 10%; */
 }
 
 .contacts_container h3{
@@ -892,6 +932,16 @@ i.fa-brands:hover {
 
     .contacts {
         grid-gap: 45px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .icons_container {
+        display: block;
+    }
+
+    .madeby {
+        margin-top: 15px;
     }
 }
 
