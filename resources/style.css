@@ -60,7 +60,7 @@ header {
 }
 
 .logo {
-    height: 100%;
+    height: 38px;
 }
 
 header.sticky{
@@ -475,6 +475,7 @@ h3.button:hover {
 
 .deeploam_div img {
     width: 100%;
+    border-radius: 10px;
 }
 
 h3.normal {
@@ -839,7 +840,10 @@ iframe {
             /* grid-row-gap: 90px; */
             /* margin-bottom: 60px; */
             grid-gap: 10px;
+            /* grid-template-columns: 1fr; */
+
         }
+
         .grid {
             /* padding: 90px 5%; */
         }
