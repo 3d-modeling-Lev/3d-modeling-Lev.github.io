@@ -684,9 +684,9 @@ h3 a.white:hover {
     border-radius: 10px;
     /* border-radius: 10px 10px 0 0; */
     transition: .2s;
-    outline: 3px solid #A6BABB;
+    /* outline: 3px solid #A6BABB; */
+    border: 3px solid #A6BABB;
     /* outline: 10px solid #A6BABB; */
-    outline-offset:-3px
 }
 
 .grid_one img:hover {
@@ -745,8 +745,10 @@ video {
     /* width: 100%; */
     width: 100%;
     border-radius: 10px;
-    outline: 3px solid #A6BABB;
-    outline-offset:-3px
+    border: 3px solid #A6BABB;
+
+    /* outline: 3px solid #A6BABB; */
+    /* outline-offset:-3px */
 }
 
 .video {
@@ -764,8 +766,10 @@ iframe {
     max-width: 100%;
     margin: 0;
     border-radius: 10px;
-    outline: 3px solid #A6BABB;
-    outline-offset: -3px;
+    border: 3px solid #A6BABB;
+
+    /* outline: 3px solid #A6BABB;
+    outline-offset: -3px; */
 }
 
     #lightbox{
@@ -829,8 +833,10 @@ iframe {
         }
 
         .grid_one img {
-            outline: 2px solid #A6BABB;
-            outline-offset:-2px
+            border: 2px solid #A6BABB;
+
+            /* outline: 2px solid #A6BABB; */
+            /* outline-offset:-2px */
         }
     }
 
