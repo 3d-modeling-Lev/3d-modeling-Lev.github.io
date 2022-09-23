@@ -594,6 +594,7 @@ h3.normal {
     margin-top: -3px;
     width: 100%;
     background-color: #A6BABB;
+    color: black;
     padding: 5px 15px;
     box-sizing: border-box;
     text-decoration: underline;
@@ -607,7 +608,9 @@ h3.normal {
     text-decoration: none;
 }
 
-h3 a.white {
+
+/* h3 a.white { */
+h3 .white {
     /* margin-top: 20px; */
     color: black;
     /* color: white; */
@@ -662,6 +665,10 @@ h3 a.white:hover {
     color: rgb(0, 0, 0);
 
     padding: 30px 60px;
+}
+
+.button.works.two {
+    display: none;
 }
 
 /* .knopka_rabota {
