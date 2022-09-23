@@ -63,6 +63,20 @@ header {
     height: 38px;
 }
 
+.logo.non {
+    width: 144px;
+
+}
+
+.logo.block {
+    width: 96px;
+
+}
+
+/* .logo:hover {
+    cursor: pointer;
+} */
+
 header.sticky{
     background: #fff;
     /* padding: 0px 10%; */
