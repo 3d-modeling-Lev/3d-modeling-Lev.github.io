@@ -61,6 +61,15 @@ header {
 
 .logo {
     height: 38px;
+    box-shadow: 3px 3px #000;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+
+.logo:hover {
+    box-shadow: none;
+    transition: .2s;
 }
 
 .logo.non {
@@ -163,7 +172,10 @@ header.sticky li h3:hover {
 
 #zapis {
     scroll-behavior: smooth;
+}
 
+#zapiska {
+    scroll-margin-top: 300px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -236,7 +248,7 @@ header.sticky li h3:hover {
     align-items: center;
     padding: 300px 10% 90px;
     /* background-image: url(./background2.png); */
-    background-image: url("../resources/images/background333.png");
+    background-image: url("../resources/images/background3333.png");
     min-height: 100vh;
     background-position: right;
     background-size: cover;
@@ -403,7 +415,7 @@ h3.button:hover {
         /* box-sizing: border-box; */
         /* align-items: center; */
         /* padding: 300px 10% 90px; */
-        background-image: url("../resources/images/background222.png");
+        background-image: url("../resources/images/background2222.png");
         /* background-image: url(./background3.png); */
         /* min-height: 100vh; */
         background-position: center;
@@ -698,16 +710,14 @@ h3 a.white:hover {
     border-radius: 10px;
     /* border-radius: 10px 10px 0 0; */
     transition: .2s;
-    /* outline: 3px solid #A6BABB; */
     border: 3px solid #A6BABB;
-    /* outline: 10px solid #A6BABB; */
+
+    /* box-shadow: 5px 5px #fff; */
 }
 
 .grid_one img:hover {
     transform: translateY(-5px);
-    /* transform: scale(1.1 , 1.1); */
-    /* overflow: hidden; */
-    /* opacity: 80%; */
+    /* box-shadow: none; */
 }
 
 .button.works {
@@ -825,6 +835,7 @@ iframe {
 
    @media only screen and (max-width: 800px) {
         .grid_one{
+            /* grid-template-columns: 1fr; */
             grid-template-columns: repeat(2, 1fr);
         }
 
@@ -860,7 +871,7 @@ iframe {
             /* grid-row-gap: 90px; */
             /* margin-bottom: 60px; */
             grid-gap: 10px;
-            /* grid-template-columns: 1fr; */
+            grid-template-columns: 1fr;
 
         }
 
