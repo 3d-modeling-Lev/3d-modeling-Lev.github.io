@@ -4,6 +4,7 @@
     scroll-behavior: smooth;
 }
 
+
 h1 {
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Rubik Mono One', sans-serif;
@@ -240,6 +241,7 @@ header.sticky li h3:hover {
 
 .body {
     width: 100%;
+    zoom: normal;
 }
 
 .first_one {
@@ -332,9 +334,9 @@ h3.button:hover {
     transition: .3s;
 }
 
-@media only screen and (min-width: 1600px) {
-    .first_one {
-        /* background-image: url(./background3.png); */
+@media only screen and (min-width: 1900px) {
+    body {
+        zoom: 150%;
     }
 }
 
@@ -342,7 +344,20 @@ h3.button:hover {
     .first_one h1 {
         font-size: 70px;
     }
+    
+
+
+    .first_one {
+        min-height: 65vh;
+    }
+
 }
+
+/* @media only screen and (max-width: 1478px){ */
+    /* body { */
+        /* zoom: normal; */
+    /* } */
+/* } */
 
 @media only screen and (max-width: 1480px) and (min-width: 1080px) {
     .first_one h1 {
