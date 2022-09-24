@@ -347,7 +347,7 @@ h3.button:hover {
     }
 
     .first_one {
-        height: 65vh;
+        min-height: 65vh;
     }
 }
 
