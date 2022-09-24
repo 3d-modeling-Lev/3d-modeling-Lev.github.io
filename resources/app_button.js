@@ -16,9 +16,12 @@ let Appear = function() {
     button.style.display = "none";
     buttontwo.style.display = "block";
 
-    gridone.style.gridTemplateColumns = "1fr 1fr";
-
+    if (window.screen.width < 600) {
+        // gridone.style.gridTemplateColumns = "1fr";
+        gridone.style.gridTemplateColumns = "1fr 1fr";
+    }
 }
+
 
 let Disappear = function() {
     closedPhoto.forEach(biba => {
@@ -28,6 +31,11 @@ let Disappear = function() {
     buttontwo.style.display = "none";
 
     gridone.style.gridTemplateColumns = "1fr";
+
+    if (window.screen.width < 600) {
+        gridone.style.gridTemplateColumns = "1fr";
+        // gridone.style.gridTemplateColumns = "1fr 1fr";
+    }
 }
 
 button.onclick = Appear;

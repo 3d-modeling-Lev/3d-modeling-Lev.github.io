@@ -248,9 +248,11 @@ header.sticky li h3:hover {
     width: 100%;
     box-sizing: border-box;
     align-items: center;
-    padding: 300px 10% 90px;
+    /* padding: 300px 10% 90px; */
+    padding: 90px 10% 90px;
     /* background-image: url(./background2.png); */
-    background-image: url("../resources/images/background3333.png");
+    background-image: url("../resources/images/background3.png");
+    /* height: 100vh; */
     min-height: 100vh;
     background-position: right;
     background-size: cover;
@@ -259,6 +261,14 @@ header.sticky li h3:hover {
 .threeed {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.first_one.left {
+    /* width: 45%; */
+    /* margin-right: 30px; */
+    height: 100%;
+    align-items: end;
 }
 
 .threeed h2 {
@@ -296,10 +306,7 @@ p.big_3d {
     color: #fff;
 } 
 
-.left {
-    /* width: 45%; */
-    margin-right: 30px;
-}
+
 
 .first_one img{
     width: 100%;
@@ -338,6 +345,10 @@ h3.button:hover {
     body {
         zoom: 150%;
     }
+
+    .first_one {
+        height: 65vh;
+    }
 }
 
 @media only screen and (min-width: 1481px) {
@@ -345,10 +356,9 @@ h3.button:hover {
         font-size: 70px;
     }
     
-
-
     .first_one {
-        min-height: 65vh;
+        /* height: 65vh; */
+        /* min-height: 65vh; */
     }
 
 }
@@ -381,6 +391,8 @@ h3.button:hover {
         margin-left: 0;
         /* text-shadow: 5px 5px #0e171b; */
     }
+
+
         
 }
 
@@ -424,21 +436,25 @@ h3.button:hover {
 
 /* @media only screen and (max-width:640px) { */
 /* @media only screen and (max-width:790px) { */
+    @media only screen and (min-width: 801px) {
+        .first_one .left {
+            margin-top: 30vh;
+            /* margin-top: 20vh; */
+        }
+    }
+
     @media only screen and (max-width:880px) {
     .first_one {
-        /* width: 100%; */
-        /* box-sizing: border-box; */
-        /* align-items: center; */
-        /* padding: 300px 10% 90px; */
-        background-image: url("../resources/images/background2222.png");
-        /* background-image: url(./background3.png); */
-        /* min-height: 100vh; */
+        background-image: url("../resources/images/background2.png");
         background-position: center;
-        /* background-size: cover; */
     }
 
     p.big_3d {
         font-size: 120px;
+    }
+
+    .first_one .left {
+        margin-top: 15vh;
     }
 }
 
@@ -460,7 +476,7 @@ h3.button:hover {
 
 @media only screen and (max-width: 450px) {
     .first_one {
-        padding: 300px 5% 90px;
+        padding: 90px 5% 90px;
     }
 }
 
@@ -489,6 +505,7 @@ h3.button:hover {
 
 .container_photo .photo {
     margin-right: 60px;
+    width: 230px;
 }
 
 .second_one .left {
