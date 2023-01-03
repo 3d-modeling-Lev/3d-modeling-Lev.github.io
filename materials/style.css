@@ -7,6 +7,7 @@
 
 body {
     background-color: black;
+    padding-bottom: 60px;
 }
 
 h1.huge {
@@ -32,6 +33,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 .logo {
@@ -53,6 +55,8 @@ h3 {
 a {
     color: unset;
     text-decoration: none;
+    width: min-content;
+
 }
 
 header {
@@ -180,6 +184,16 @@ section.two {
     display: none;
 }
 
+.lined {
+    text-transform: uppercase;
+    margin-top: 15px;
+    transition-duration: 0.5s;
+}
+
+.lined:hover {
+    color: aqua;
+}
+
 @media screen and (max-width: 1050px) {
     .gallery {
         grid-gap: 15px
@@ -225,7 +239,7 @@ section.four {
 .works {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr; */
     grid-gap: 15px;
 }
 
@@ -241,12 +255,67 @@ section.four {
     border-radius: 10px;
 }
 
+@media screen and (max-width:450px) {
+    .works {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+}
 
 
+/* ---------- */
+footer {
+    text-align: center;
+    justify-items: center;
+    width: min-content;
+    margin: 0 auto;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    width: min-content;
+    align-items: center;
+
+    margin: 20px 0 30px;
+}
+
+.fa-brands {
+    font-size: 3rem;
+}
+
+.icon_center {
+    margin: 0 10px;
+}
+
+.email {
+    border: 1px solid rgb(84, 84, 84);
+    width: min-content;
+    padding: 6px 20px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
 
 
+/* ---------- */
 
+@media screen and (max-width: 649px) {
+    .line {
+        border: 1px solid rgb(43, 43, 43);
+        width: 80%;
+        margin: 30px 10%;
+    }
 
+    .upper {
+        font-size: 2rem;
+    }
+
+    .gallery {
+        margin-top: 15px;
+    }
+    
+}
 @media screen and (max-width: 450px) {
     header, section.one, section.two, section.three, section.four {
         padding-left: 5%;
