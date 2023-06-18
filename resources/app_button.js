@@ -35,7 +35,13 @@ let Disappear = function() {
     if (window.screen.width < 600) {
         gridone.style.gridTemplateColumns = "1fr";
         // gridone.style.gridTemplateColumns = "1fr 1fr";
+    } else if (window.screen.width >= 600 && window.screen.width < 800){
+        gridone.style.gridTemplateColumns = "1fr 1fr";
+    } else {
+        gridone.style.gridTemplateColumns = "1fr 1fr 1fr";
     }
+
+
 }
 
 button.onclick = Appear;
